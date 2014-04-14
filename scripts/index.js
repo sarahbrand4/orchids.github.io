@@ -11,7 +11,6 @@ $(document).ready(function(){
         }
     });
     
-( function( $ ) {
 	
 	// Setup variables
 	$window = $(window);
@@ -35,6 +34,7 @@ $(document).ready(function(){
 		
 		// Init Skrollr
 		var s = skrollr.init();
+            forceHeight:
 		
 		// Get window size
 	    winH = $window.height();
@@ -52,7 +52,7 @@ $(document).ready(function(){
 	    
 	}
 		
-} )( jQuery );
+}
     
     
 
