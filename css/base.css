@@ -88,13 +88,16 @@ nav li {
 .hsContainer {
 	width: 100%;
 	height: 100%;
-    
+    overflow: hidden;
+    position: relative;
 
 }
 
 .hsContent {
     padding-right: 250px;
     padding-left: 250px;
+
+
 
 
 }
