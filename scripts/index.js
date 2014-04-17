@@ -1,8 +1,5 @@
 $(document).ready(function(){
-    
 
-( function( $ ) {
-	
 	// Setup variables
 	$window = $(window);
 	$slide = $('.homeSlide');
@@ -43,7 +40,7 @@ $(document).ready(function(){
 	    s.refresh($('.homeSlide'));
 	    
 	}
-		
-} )( jQuery );
+});		
+
     
     
