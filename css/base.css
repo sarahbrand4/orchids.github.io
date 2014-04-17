@@ -6,10 +6,19 @@
 body {
     
 }
+/* I knew you were TRBL when you walked in */
 
 /* LAYOUT RULES */
 
 header {
+    width: 100%;
+    padding-top: 20px;
+    margin-right: auto;
+    padding-bottom: 20px;
+    margin-left: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+
     
 }
 
@@ -19,12 +28,19 @@ nav {
 
 section {
     
+    
 }
 
 /* HEADER RULES */
 
 header h1 {
+    font-family: "bebas neue", serif;
+    font-size: 40px;
+    line-height: 30px;
     
+}
+
+header h1 a {
     
 }
 
@@ -35,19 +51,52 @@ header nav {
 
 /* NAV RULES */
 
-nav ul {
+nav ul #names {
+
+    
     
 }
 
 nav li {
-    
+    font-family: "bebas neue", serif;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 5px 0 5px;
     
 }
 
 /* SECTION RULES */
 
-section .hsContent {
-    
+.hsContainer {
+	width: 100%;
+	height: 100%;
+
+}
+
+.hsContent {
+	margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 250px;
+    padding-left: 250px;
+
+
+}
+
+
+.hsContent h1 {
+    font-family: "bebas neue", serif;
+    font-size: 20px;
+    line-height: 20px;
+
+        
+}
+
+.hsContent p {
+    font-family: "minion pro", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
     
 }
 
@@ -82,55 +131,6 @@ section #slide-5 {
     
 }
 
-/* SECTION 1 RULES */
-
-section #slide-1 h1 {
-    
-}
-
-section #slide-1 p {
-    
-}
-
-/* SECTION 2 RULES */
-
-section #slide-2 h1 {
-    
-}
-
-section #slide-2 p {
-    
-}
-
-/* SECTION 3 RULES */
-
-section #slide-3 h1 {
-    
-}
-
-section #slide-3 p {
-    
-}
-
-/* SECTION 4 RULES */
-
-section #slide-4 h1 {
-    
-}
-
-section #slide-4 p {
-    
-}
-
-/* SECTION 5 RULES */
-
-section #slide-5 h1 {
-    
-}
-
-section #slide-5 p {
-    
-}
 
 
 
