@@ -83,7 +83,7 @@ section {
     width: 100%;
     max-width: 1920px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -92,10 +92,8 @@ section {
 article {
     position: absolute;
     top: 200px;
-    left: 100px;
     height: 600px;
-    width: 50%;
-    z-index: 1;
+    z-index: 2;
 }    
 
 /* INDIVIDUAL SECTION RULES */
@@ -103,41 +101,39 @@ article {
     
 
 #slide1  {
-    background-image:url();
+    background-image:url(../img/mothorchidslarge.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #000000;
+        
 
 }
 
 
 
 #slide2  {
-    background-image:url();
+    background-image:url(../img/dendroorchidlarge.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #000000;
 }
 
 
 
 #slide3 {
-    background-image:url();
+    background-image:url(../img/ladysliporchidslarge.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #000000;
 }
 
-	
-#slide4{
-    background-image:url();
+
+
+#slide4 {
+    background-image:url(../img/cymorchidslarge.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-	
-
-#slide5 {
-    background-image:url();
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #000000;
 }
 
 
