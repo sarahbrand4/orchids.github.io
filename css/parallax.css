@@ -93,29 +93,29 @@ article {
 /* INDIVIDUAL SECTION RULES */
 
 #slide1  {
-    background-image:url('../img/slide-1.jpg') 50% 0 no-repeat fixed;
+    background-image:url('../img/slide-1.jpg');
 
 }
 
 
 
 #slide2  {
-    background-image:url('../img/slide-2.jpg') 50% 0 no-repeat fixed;
+    background-image:url('../img/slide-2.jpg');
 }
 
 
 
 #slide3 {
-    background-image:url('../img/slide-3.jpg') 50% 0 no-repeat fixed;
+    background-image:url('../img/slide-3.jpg');
 }
 
 	
 #slide4{
-    background-image:url('../img/slide-4.jpg') 50% 0 no-repeat fixed;
+    background-image:url('../img/slide-4.jpg');
 }
 
 	
 
 #slide5 {
-    background-image:url('../img/slide-1.jpg') 50% 0 no-repeat fixed;
+    background-image:url('../img/slide-1.jpg');
 }
