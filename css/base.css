@@ -74,8 +74,69 @@ nav li {
     
 }
 
+/* SECTION RULES */
 
-/* IMG RULES */
+section {
+    height: 1000px;    
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+}
+
+
+/* ARTICLE RULES */
+
+article {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    height: 600px;
+    width: 50%;
+}    
+
+/* INDIVIDUAL SECTION RULES */
+
+    
+
+#slide1  {
+    background-image:url(../img/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+
+#slide2  {
+    background-image:url(../img/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+#slide3 {
+    background-image:url(../img/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+	
+#slide4{
+    background-image:url(../img/slide-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+	
+
+#slide5 {
+    background-image:url(../img/slide-5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 
 
