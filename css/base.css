@@ -11,52 +11,71 @@
 	box-sizing: border-box;
 	}
 
+
 body {
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 100%;
-	color: #000;
-	background: #fff;
-	}
+    
+}
+/* I knew you were TRBL when you walked in */
 
-#wrapper {
-	margin: 20px auto;
-	width: 80%;
-	background: #ccc;
-	padding-bottom: 20px;
-	}
+/* LAYOUT RULES */
 
-h1, h2 {
-	font-family: Cambria, Georgia, serif;
-	font-size: 200%;
-	font-weight: normal;
-	line-height: 120%;
-	padding: 20px 0;
-	}
+header {
+    width: 100%;
+    padding-top: 20px;
+    margin-right: auto;
+    padding-bottom: 20px;
+    margin-left: auto;
+    text-align: center;
+    background-color: #FF0DFF;
+    position: fixed;
 
-h2 {
-	font-size: 150%;
-	}
+    
+}
 
-p {
-	margin-bottom: 20px;
-	padding: 0 20px;
-	line-height: 140%;
-	background: #fcf;
-	}
+nav {
 
-/* links */
+    
+}
 
-a:focus {
-	outline: 2px solid #069;
-	}
-a:link, a: active, a:visited {
-	color: #00c;
-	text-decoration: underline;
-	}
-a:hover {
-	color: #00f;
-	text-decoration: none;
-	}
+
+
+/* HEADER RULES */
+
+header h1 {
+    font-family: "bebas neue", serif;
+    font-size: 40px;
+    line-height: 30px;
+    
+}
+
+header h1 a {
+    
+}
+
+header nav {
+    
+    
+}
+
+/* NAV RULES */
+
+nav ul {
+    
+    
+}
+
+nav li {
+    font-family: "bebas neue", serif;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 5px 0 5px;
+    
+}
+
+
+/* IMG RULES */
 
 
 
