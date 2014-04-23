@@ -21,15 +21,14 @@ body {
 
 header {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 15px;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-left: auto;
     text-align: center;
-    background-color: #FF0DFF;
+    background-color: #FFFFFF;
     position: fixed;
     z-index: 3;
-
     
 }
 
@@ -43,35 +42,54 @@ nav {
 /* HEADER RULES */
 
 header h1 {
-    font-family: "bebas neue", serif;
+    font-family: "Oswald-Bold", sans-serif;
     font-size: 40px;
     line-height: 30px;
     
 }
 
-header h1 a {
-    
+header h1 a:link, header h1 a:visited {
+    padding: 0 16px;
+    color: #000000;
+    text-decoration: none;
+ 
 }
 
-header nav {
+
+header h1 a:hover, header h1 a:active {
+    background-color: none;
+    text-decoration: none;
+    color:none;  
     
     
-}
+}    
 
 /* NAV RULES */
 
-nav ul {
-    
-    
-}
-
+   
 nav li {
-    font-family: "bebas neue", serif;
+    font-family: "Oswald-Light", sans-serif;
     font-size: 30px;
     line-height: 30px;
     display: inline-block;
     margin-top: 10px;
-    padding: 0 5px 0 5px;
+    padding: 10px 5px 0 5px;
+    
+    
+}
+
+
+nav a:link, nav a:visited {
+    padding: 0 16px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav a:hover, nav a:active {
+    background-color: none;
+    text-decoration: none;
+    color:#FFBBF6;
     
 }
 
@@ -94,7 +112,10 @@ article {
     top: 200px;
     height: 600px;
     z-index: 2;
-}    
+
+    
+}   
+
 
 /* INDIVIDUAL SECTION RULES */
 
@@ -105,6 +126,7 @@ article {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
+    
         
 
 }
@@ -138,7 +160,32 @@ article {
 
 
 
+/* ARTICLE RULES */
 
+article h1 {
+    background-color: none;
+    font-family: "Oswald-Light", sans-serif;
+    margin: 0 500px 0 500px;
+    font-size: 36px;
+    line-height: 30px;
+    color: #FFBBF6;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+article p {
+    background-color: none;
+    font-family: "minion-pro", serif;
+    margin: 0 400px 0 400px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 15px 10px 15px;
+    text-indent: 20px;
+    color: #FFFFFF;
+    
+}
 
 
 
