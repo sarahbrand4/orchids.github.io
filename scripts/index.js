@@ -1,7 +1,8 @@
 $(document).ready(function (){
-    $("#").click(function (){
+    $("#click").click(function (){
         $('html, body').animate({
-                scrollTop: $("#slide2");
+                scrollTop: $("#div2").offset().top
+                 }, 2000);
         return false;
     });
 });
