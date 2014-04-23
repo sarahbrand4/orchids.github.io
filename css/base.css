@@ -99,6 +99,7 @@ section {
     height: 1000px;
     margin: 0 auto;
     width: 100%;
+    max-width: 1920px;
     position: relative;
     z-index: 1;
 }
@@ -167,10 +168,10 @@ article h1 {
     font-size: 36px;
     line-height: 30px;
     color: #FFBBF6;
-    margin: 0 700px 10px 30px; 
+    width: 50%;
+    margin: 0 10px 10px 20px;
     padding: 10px;
-    text-align: center;
-    float: left;
+
     
 }
 
@@ -179,8 +180,9 @@ article p {
     font-family: "minion-pro", serif;
     font-size: 16px;
     line-height: 18px;
-    margin: 0 700px 10px 30px; 
-    padding: 10px 15px 10px 15px;
+    width: 40%; 
+    margin-left: 20px;
+    margin-right: 10px;
     text-indent: 20px;
     color: #FFFFFF;
     float: left;
