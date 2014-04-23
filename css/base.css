@@ -99,7 +99,6 @@ section {
     height: 1000px;
     margin: 0 auto;
     width: 100%;
-    max-width: 1920px;
     position: relative;
     z-index: 1;
 }
@@ -122,7 +121,7 @@ article {
     
 
 #slide1  {
-    background-image:url(../img/mothorchidslarge.jpg);
+    background-image:url(../img/mothorchidslargenew.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
@@ -134,7 +133,7 @@ article {
 
 
 #slide2  {
-    background-image:url(../img/dendroorchidlarge.jpg);
+    background-image:url(../img/dendroorchidlargenew.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
@@ -143,7 +142,7 @@ article {
 
 
 #slide3 {
-    background-image:url(../img/ladysliporchidslarge.jpg);
+    background-image:url(../img/ladysliporchidslargenew.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
@@ -152,7 +151,7 @@ article {
 
 
 #slide4 {
-    background-image:url(../img/cymorchidslarge.jpg);
+    background-image:url(../img/cymorchidslargenew.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #000000;
@@ -165,26 +164,26 @@ article {
 article h1 {
     background-color: none;
     font-family: "Oswald-Light", sans-serif;
-    margin: 0 500px 0 500px;
     font-size: 36px;
     line-height: 30px;
     color: #FFBBF6;
+    margin: 0 700px 10px 30px; 
     padding: 10px;
     text-align: center;
-    
+    float: left;
     
 }
 
 article p {
     background-color: none;
     font-family: "minion-pro", serif;
-    margin: 0 400px 0 400px;
     font-size: 16px;
     line-height: 18px;
+    margin: 0 700px 10px 30px; 
     padding: 10px 15px 10px 15px;
     text-indent: 20px;
     color: #FFFFFF;
-    
+    float: left;
 }
 
 
