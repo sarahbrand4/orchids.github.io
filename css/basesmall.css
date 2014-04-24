@@ -1,229 +1,201 @@
-
-/* uses the universal selector used to normalize box-sizing 
+    
+    
+    /* uses the universal selector used to normalize box-sizing 
    for all browsers
    applies to all tags, all selectors, in the document
    http://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
    */
 
-* {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	}
+    * {
+	   -moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   box-sizing: border-box;
+	   }
 
 
-body {
+    body {
     
-}
-/* I knew you were TRBL when you walked in */
+    }
+    /* I knew you were TRBL when you walked in */
 
-/* LAYOUT RULES */
+    /* LAYOUT RULES */
 
-header {
-    width: 100%;
-    padding-top: 15px;
-    margin-right: auto;
-    padding-bottom: 10px;
-    margin-left: auto;
-    text-align: center;
-    background-color: #FFFFFF;
-    position: fixed;
-    z-index: 4;
+    header {
+        width: 100%;
+        padding-top: 10px;
+        margin-right: auto;
+        padding-bottom: 10px;
+        margin-left: auto;
+        text-align: center;
+        background-color: #FFFFFF;
+        position: fixed;
+        z-index: 4;
     
-}
+    }
 
-nav {
-    width: 100%;
-    padding-top: 40px;
-    margin-right: auto;
-    padding-bottom: 10px;
-    margin-left: auto;
-    text-align: center;
-    background-color: #FFFFFF;
-    position: fixed;
-    z-index: 3;
+    nav {
+        width: 100%;
+        padding-top: 35px;
+        margin-right: auto;
+        padding-bottom: 10px;
+        margin-left: auto;
+        text-align: center;
+        background-color: #FFFFFF;
+        position: fixed;
+        z-index: 3;
     
-}
+    }
 
 
 
-/* HEADER RULES */
+    /* HEADER RULES */
 
-header h1 {
-    font-family: "Oswald-Bold", sans-serif;
-    font-size: 40px;
-    line-height: 30px;
+    header h1 {
+        font-family: "Oswald-Bold", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
 
     
-}
+    }
 
-header h1 a:link, header h1 a:visited {
-    padding: 0 16px;
-    color: #000000;
-    text-decoration: none;
+    header h1 a:link, header h1 a:visited {
+        padding: 0 16px;
+        color: #000000;
+        text-decoration: none;
  
-}
+    }
 
 
-header h1 a:hover, header h1 a:active {
-    background-color: none;
-    text-decoration: none;
-    color:none;  
+    header h1 a:hover, header h1 a:active {
+        background-color: none;
+        text-decoration: none;
+        color:none;  
     
     
-}    
+    }    
 
-/* NAV RULES */
-
+    /* NAV RULES */
+    
    
-nav li {
-    font-family: "Oswald-Light", sans-serif;
-    font-size: 30px;
-    line-height: 30px;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 5px 0 5px;
+    nav li {
+        font-family: "Oswald-Light", sans-serif;
+        font-size: 24px;
+        line-height: 24px;
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 5px 0 5px;
     
     
-}
+    }
 
 
-nav a:link, nav a:visited {
-    padding: 0 16px;
-    color: #000000;
-    text-decoration: none;
+    nav a:link, nav a:visited {
+        padding: 0 16px;
+        color: #000000;
+        text-decoration: none;
 
-}
+    }
 
-nav a:hover, nav a:active {
-    background-color: none;
-    text-decoration: none;
-    color:#FFBBF6;
+    nav a:hover, nav a:active {
+        background-color: none;
+        text-decoration: none;
+        color:#FFBBF6;
     
-}
+    }
 
-/* SECTION RULES */
+    /* SECTION RULES */
 
-section {
-    height: 1000px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
-    position: relative;
-    z-index: 1;
-}
-
-
-/* ARTICLE RULES */
-
-article {
-    position: absolute;
-    top: 200px;
-    height: 600px;
-    z-index: 2;
-
-    
-}   
+    section {
+        height: 1000px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        position: relative;
+        z-index: 1;
+    }
 
 
-/* INDIVIDUAL SECTION RULES */
+    /* ARTICLE RULES */
+
+    article {
+        position: absolute;
+        top: 200px;
+        height: 300px;
+        z-index: 2;
 
     
+    }   
 
-#slide1  {
-    background-image:url(../img/mothorchidslargenew.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #000000;
+
+    /* INDIVIDUAL SECTION RULES */
+
+    
+
+    #slide1  {
+        background-image:url(../img/mothorchidssmall.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #000000;
     
         
 
-}
+    }
 
 
 
-#slide2  {
-    background-image:url(../img/dendroorchidlargenew.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #000000;
-}
+    #slide2  {
+        background-image:url(../img/dendroorchidsmall.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #000000;
+    }
 
 
 
-#slide3 {
-    background-image:url(../img/ladysliporchidslargenew.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #000000;
-}
+    #slide3 {
+        background-image:url(../img/ladysliporchidssmall.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #000000;
+    }
 
 
 
-#slide4 {
-    background-image:url(../img/cymorchidslargenew.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #000000;
-}
+    #slide4 {
+        background-image:url(../img/cymorchidssmall.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #000000;
+    }
 
 
 
-/* ARTICLE RULES */
+    /* ARTICLE RULES */
 
-article h1 {
-    background-color: none;
-    font-family: "Oswald-Light", sans-serif;
-    font-size: 36px;
-    line-height: 30px;
-    color: #FFBBF6;
-    width: 50%;
-    margin: 0 10px 10px 20px;
-    padding: 10px;
+    article h1 {
+        background-color: none;
+        font-family: "Oswald-Light", sans-serif;
+        font-size: 24px;
+        line-height: 24px;
+        color: #FFBBF6;
+        width: 100%;
+        margin: 0 10px 10px 20px;
+        padding: 10px;
 
     
-}
+    }
 
-article p {
-    background-color: none;
-    font-family: "minion-pro", serif;
-    font-size: 16px;
-    line-height: 18px;
-    width: 40%; 
-    margin-left: 20px;
-    margin-right: 10px;
-    text-indent: 20px;
-    color: #FFFFFF;
-    float: left;
-}
-
+    article p {
+        background: #FFFFFF;
+        opacity: 0.7;
+        font-family: "minion-pro", serif;
+        font-size: 16px;
+        line-height: 18px;
+        width: 90%; 
+        margin-left: 20px;
+        margin-right: 20px;
+        text-indent: 20px;
+        color: #000000;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
