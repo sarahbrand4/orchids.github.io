@@ -178,8 +178,8 @@
         font-size: 36px;
         line-height: 30px;
         color: #FFBBF6;
-        width: 50%;
-        margin: 0 10px 10px 20px;
+        width: 90%;
+        margin-left: 35px;
         padding: 10px;
 
     
@@ -190,9 +190,8 @@
         font-family: "minion-pro", serif;
         font-size: 16px;
         line-height: 18px;
-        width: 50%; 
-        margin-left: 20px;
-        margin-right: 10px;
+        width: 90%; 
+        margin-left: 35px;
         text-indent: 20px;
         color: #000000;
         float: left;
