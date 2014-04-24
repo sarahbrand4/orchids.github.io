@@ -66,10 +66,9 @@ header h1 a:link, header h1 a:visited {
 
 
 header h1 a:hover, header h1 a:active {
-    background-color: none;
+
     text-decoration: none;
-    color:none;  
-    
+
     
 }    
 
@@ -96,7 +95,7 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover, nav a:active {
-    background-color: none;
+
     text-decoration: none;
     color:#FFBBF6;
     
@@ -172,7 +171,6 @@ article {
 /* ARTICLE RULES */
 
 article h1 {
-    background-color: none;
     font-family: "Oswald-Light", sans-serif;
     font-size: 36px;
     line-height: 30px;
